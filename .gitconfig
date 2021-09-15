@@ -1,0 +1,13 @@
+[user]
+	email = knelli@caltech.edu
+	name = Kyle Nelli
+[credential]
+	helper = store
+[color]
+	ui = true
+[push]
+	default = upstream
+[merge]
+	conflictstyle = diff3
+[core]
+	editor = vim
