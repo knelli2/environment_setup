@@ -28,6 +28,13 @@ export spec="/home/knelli/Documents/research/spec"
 export spectre="/home/knelli/Documents/researchspectre"
 export IMG_DIR="/home/knelli/Documents/research/caltech/singularity_images"
 
+#Compile SpECTRE
+alias cmakespectre="cmake -D CMAKE_CXX_COMPILER=clang++-10 \
+                          -D CMAKE_C_COMPILER=clang-10 \
+                          -D CMAKE_Fortran_COMPILER=gfortran \
+                          -D CHARM_ROOT=/home/knelli/charm/multicore-linux-x86_64-clang \
+                          -D CMAKE_CXX_FLAGS=-Werror ../"
+
 #git stuff
 alias gitstat="git status"
 alias gp="git push"
