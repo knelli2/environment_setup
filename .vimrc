@@ -19,3 +19,5 @@ function! XTermPasteBegin()
   set paste
   return ""
 endfunction
+
+syntax on
